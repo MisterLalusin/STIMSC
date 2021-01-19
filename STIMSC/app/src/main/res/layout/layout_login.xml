@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="80dp"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:paddingBottom="32dp">
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@raw/app_icon"/>
+
+    <EditText
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="student id"
+        android:inputType="text"
+        android:id="@+id/logIn_StudentIDDTTXT"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/logIn_PasswordDTTXT"/>
+
+    <Button
+        android:id="@+id/logIn_logInBTTN"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="50">
+
+        <LinearLayout
+            android:layout_weight="20"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_weight="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or"/>
+
+        <LinearLayout
+            android:layout_weight="20"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logIn_logInPersonelBTTN"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Login as personnel"
+        android:textColor="@android:color/black" />
+
+
+
+</LinearLayout>

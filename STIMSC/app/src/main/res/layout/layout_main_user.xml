@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:gravity="end">
+
+        <ImageView
+            android:layout_width="169dp"
+            android:layout_height="50dp"
+            android:src="@raw/student_bar"/>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="[value]"
+                android:textAlignment="textEnd"
+                android:textSize="16sp"
+                android:id="@+id/mainUserLastNameTXTVW"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="[value]"
+                android:textAlignment="textEnd"
+                android:textSize="10sp"
+                android:id="@+id/mainUserFirstNameTXTVW"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:text="LOG OUT"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/button_white"
+            android:id="@+id/mainUser_LogOutBTTN"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:layout_gravity="center"
+        android:src="@raw/personelnobg"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/registrar_BTTN"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:id="@+id/mainUser_RegistrarLNRLYT">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@raw/registrar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Registrar"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mainUser_libraryLNRLYT"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@raw/library"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Library"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:id="@+id/mainUser_AccountingLNRLYT">
+
+            <ImageView
+                android:id="@+id/accounting_BTTN"
+                android:layout_gravity="center"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@raw/accounting"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accounting"
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mainUser_GuidanceLNRLYT"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@raw/guidance"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Guidance"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mainUser_MoreLNRLYT"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@raw/more"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="More"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="update_array">
+        <item>Form 137</item>
+        <item>Form 138</item>
+        <item>PSA</item>
+        <item>Honorable Dismissal</item>
+        <item>TOR</item>
+    </string-array>
+    <string-array name="update_options_array">
+        <item>Requirements Sumbitted</item>
+        <item>Requirements Not Sumbitted</item>
+    </string-array>
+</resources>
